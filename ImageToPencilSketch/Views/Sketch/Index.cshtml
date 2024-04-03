@@ -1,0 +1,18 @@
+﻿@{
+    ViewBag.Title = "Generate Sketch";
+}
+
+<h2>Generate Sketch</h2>
+
+@using (Html.BeginForm("GenerateSketch", "Sketch", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <input type="file" name="file" />
+    <input type="submit" value="Generate Sketch" />
+}
+
+@if (ViewBag.ErrorMessage != null)
+{
+    <div class="alert alert-danger">
+        @ViewBag.ErrorMessage
+    </div>
+}

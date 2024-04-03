@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34714.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageToPencilSketch", "ImageToPencilSketch\ImageToPencilSketch.csproj", "{1ACD5514-E694-4891-8D35-CA0F8D7962AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1ACD5514-E694-4891-8D35-CA0F8D7962AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1ACD5514-E694-4891-8D35-CA0F8D7962AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1ACD5514-E694-4891-8D35-CA0F8D7962AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1ACD5514-E694-4891-8D35-CA0F8D7962AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {77C29BD3-2425-40FE-8122-5990216A2D0D}
+	EndGlobalSection
+EndGlobal

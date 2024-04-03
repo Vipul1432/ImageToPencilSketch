@@ -1,0 +1,20 @@
+﻿@{
+    ViewBag.Title = "Sketch";
+}
+
+<h2>Generated Sketch</h2>
+
+@if (!string.IsNullOrEmpty(ViewBag.SketchData))
+{
+    <img src="data:image/jpeg;base64, @Html.Raw(ViewBag.SketchData)" alt="Sketch" width="500" height="500" />
+
+    <br />
+
+    <a href="data:image/jpeg;base64, @Html.Raw(ViewBag.SketchData)" download="sketch.jpg" class="btn btn-primary">Download Sketch</a>
+}
+else
+{
+    <div class="alert alert-danger">
+        Sketch data is not available.
+    </div>
+}
